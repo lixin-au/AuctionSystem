@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AuctionSystem.Contracts.Persistence.Mock\AuctionSystem.Contracts.Persistence.Mock.csproj" />
     <ProjectReference Include="..\AuctionSystem.Contracts\AuctionSystem.Contracts.csproj" />
+    <ProjectReference Include="..\AuctionSystem.Persistence.InMemory\AuctionSystem.Persistence.InMemory.csproj" />
     <ProjectReference Include="..\AuctionSystem.Services\AuctionSystem.Services.csproj" />
   </ItemGroup>
 
