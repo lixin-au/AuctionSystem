@@ -7,6 +7,7 @@ namespace AuctionSystem.Services
     {
         protected readonly IRepository Repository;
 
+
         public AuctionService(IRepository repository)
         {
             Repository = repository;
