@@ -6,7 +6,7 @@ As a quick implementation done in short time frame, this solution has scalabilit
 - Bidding can only be transacted within a single process.
 - Client side polling for getting auction states could be too intensive to the server.
 
-Improvement can be done by the following methods,
+Improvement can be done with the following changes,
 
 - Using a service bus and sagas for bidding.
 - Using SignalR and WebSocket to implement server push to the client side app.
