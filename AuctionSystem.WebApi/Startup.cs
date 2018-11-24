@@ -1,5 +1,6 @@
 ﻿using AuctionSystem.Persistence.InMemory;
 using AuctionSystem.Services;
+using Common.Utilities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -29,6 +30,9 @@ namespace AuctionSystem.WebApi
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMemoryCache();
+
+            services.AddUtilities();
             services.AddInMemoryPersistence();
             services.AddRequiredServices();
 

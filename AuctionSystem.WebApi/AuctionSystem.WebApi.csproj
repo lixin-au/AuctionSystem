@@ -18,6 +18,7 @@
     <ProjectReference Include="..\AuctionSystem.Contracts\AuctionSystem.Contracts.csproj" />
     <ProjectReference Include="..\AuctionSystem.Persistence.InMemory\AuctionSystem.Persistence.InMemory.csproj" />
     <ProjectReference Include="..\AuctionSystem.Services\AuctionSystem.Services.csproj" />
+    <ProjectReference Include="..\Common.Utilities\Common.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Moq" Version="4.10.0" />
     <PackageReference Include="nunit" Version="3.10.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
@@ -17,6 +16,7 @@
     <ProjectReference Include="..\AuctionSystem.Contracts\AuctionSystem.Contracts.csproj" />
     <ProjectReference Include="..\AuctionSystem.Services\AuctionSystem.Services.csproj" />
     <ProjectReference Include="..\AuctionSystem.WebApi\AuctionSystem.WebApi.csproj" />
+    <ProjectReference Include="..\Common.Utilities\Common.Utilities.csproj" />
   </ItemGroup>
 
 </Project>
